@@ -1,0 +1,50 @@
+[
+    {
+        "name": "London",
+        "img": "https://cdn.londonandpartners.com/visit/general-london/areas/77954-640x360-london_eye_housesofparliament_skyline_640.jpg",
+        "cost": 3000,
+        "rating": 4.9,
+        "details":"The most visited city in the world, a hub of culture, finance and global influence, the city of London will steal your heart in an instant. Covered in ancient monuments and seeped in the pomp of royalty, it's a place to step back in time but also frolic a little into the future. Pokey galleries and mega museums rival entire suburbs covered in street art. Whilst underground bars sit a short stroll from rooftop cinemas. Despite having its own set of cultures and traditions London is immensely multicultural, with a chicken tikka masala as much a quintessential experience of the city as a Sunday roast. " 
+        
+    },
+    {
+        "name": "New Work",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/NYC_-_Washington_Square_Park.JPG/1024px-NYC_-_Washington_Square_Park.JPG",
+        "cost": 5000,
+        "rating": 4.5,
+        "details":"Departing from New York and heading south, pass through the states of New Jersey, Delaware, and Maryland before arriving at Washington DC's Capitol Hill. Here, your tour will start with a stop at Arlington Cemetery to visit JFK's gravesite. Next, head further into Washington to see the Capitol, Senate, and White House, the heart of the US government. Your tour then continues to the Smithsonian National Air and Space Museum before visiting the Washington, Lincoln, Vietnam, and Korean Memorials for exploration and pictures" 
+        
+    },
+    {
+        "name": "Sydney",
+        "img": "https://d3iso9mq9tb10q.cloudfront.net/wysiwyg/route-images/View-Of-Sydney-Harbour-Skyline-Slider-Big-Bus-Tours.jpg",
+        "cost": 5000,
+        "rating": 4.8,
+        "details":"Sydney sparkles year-round. Whether you want to spend the day lazing at the beach, hiking in a national park, eating out at a delectable restaurant, joining a guided cultural tour or taking your pick of a buzzing calendar of events, it's time to feel new in Sydney.Indulge in a day of shopping and fine dining, take in a musical or an art exhibition or explore a harbour walk and glistening beaches." 
+        
+    },
+    {
+        "name": "BankKok",
+        "img": "https://premiotravels.com/wp-content/uploads/2021/12/Winter-Thailand-5-Days-Holiday-Travel-Tour-Package.jpg",
+        "cost": 2500,
+        "rating": 4.3,
+        "details":"From glittering temples and pagodas to soaring skyscrapers, Bangkok is a scenic city of contrasts. Whether you want to see it from the water, a Ferris wheel, or from above while enjoying a drink, here’s where to find the best views in Bangkok There’s no shortage of rooftop bars in Bangkok, where you can enjoy a cold beverage while savoring the expansive views. Popular spots include Sky Bar at Lebua Tower, Vertigo and Moon Bar at the Banyan Tree, and the Blue Sky Bar at the Centara Grand. Some bars offer 360-degree views, while others have dining options as well." 
+        
+    },
+    {
+        "name": "New Deli",
+        "img": "https://www.makemytrip.com/travel-guide/media/dg_image/delhi/India-Gate-Delhi.jpg",
+        "cost": 1500,
+        "rating": 4.2,
+        "details":"New Delhi is the bustling capital of India.  Home to more than 19 million residents, this ancient city has a lot for any tourist to see.  There are several free walking tours that offer informative, entertaining experiences to help you discover this wonderful city. Check out the schedule or read below about the different companies.What is commonly referred to as “free tours” are really tours that operate on a pay-what-you-wish or tips-based model.There is no cost to take a tour and you are not obligated to pay your tour guide anything, though most people do" 
+        
+    },
+    {
+        "name": "Paris",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Seine_and_Eiffel_Tower_from_Tour_Saint_Jacques_2013-08.JPG/1200px-Seine_and_Eiffel_Tower_from_Tour_Saint_Jacques_2013-08.JPG",
+        "cost": 6000,
+        "rating": 4.7,
+        "details":"Ensure a memorable night out in Paris with a gourmet dinner cruise along the Seine River. Float past the city’s famed monuments, such as the Eiffel Tower, Louvre Museum, and Ile de la Cité aboard a luxury Bateaux Parisiens riverboat. Soak up the magic of Paris from an onboard dining room while enjoying a gourmet 3-course meal. Please note that Champagne and live music are also included on select 8:30pm departures.Your Paris evening begins near the Eiffel Tower, where you’ll meet your host and climb aboard a luxury Bateaux Parisiens sightseeing boat. Take a seat in the elegant dining room surrounded by large windows and enjoy a complimentary glass of welcome Champagne" 
+        
+    }
+]
