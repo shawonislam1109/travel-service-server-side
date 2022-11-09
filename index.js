@@ -37,6 +37,18 @@ async function run() {
             const count = await serviceCollection.estimatedDocumentCount()
             res.send({ count, service })
         })
+        app.get('/review', async (req, res) => {
+            let query = {}
+
+            if (req.query.email) {
+                query = {
+                    email: req.query.email
+                }
+            }
+            const cursor = reviewCollection.find(query)
+            const review = await cursor.toArray()
+            res.send(review)
+        })
 
         app.get('/services/:id', async (req, res) => {
             const id = req.params.id;
