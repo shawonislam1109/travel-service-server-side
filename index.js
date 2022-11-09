@@ -14,7 +14,6 @@ app.use(express.json())
 const user = process.env.travel_user;
 const password = process.env.travel_password;
 
-console.log(user, password)
 
 app.get('/', (req, res) => {
     res.send('this is service review connected')
@@ -26,7 +25,8 @@ const uri = `mongodb+srv://${user}:${password}@cluster0.5rnuhbi.mongodb.net/?ret
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
 
 async function run() {
-    const serviceCollection = client.db("TouristAllData").collection('serviceData')
+    const serviceCollection = client.db("TouristAllData").collection('serviceData');
+    const reviewCollection = client.db("TouristAllData").collection('reviewData')
     try {
         app.get('/services', async (req, res) => {
             const page = parseInt(req.query.page);
@@ -37,12 +37,17 @@ async function run() {
             const count = await serviceCollection.estimatedDocumentCount()
             res.send({ count, service })
         })
+
         app.get('/services/:id', async (req, res) => {
             const id = req.params.id;
             const query = { _id: ObjectId(id) }
-            console.log(query);
             const service = await serviceCollection.findOne(query);
             res.send(service)
+        })
+        app.post('/services', async (req, res) => {
+            const addService = req.body;
+            const result = await serviceCollection.insertOne(addService);
+            res.send(result);
         })
     }
 
