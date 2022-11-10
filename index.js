@@ -80,7 +80,6 @@ async function run() {
         })
         app.put('/review/:id', async (req, res) => {
             const review = req.body;
-            console.log(review)
             const id = req.params.id;
             const filter = { _id: ObjectId(id) };
             const options = { upsert: true };
